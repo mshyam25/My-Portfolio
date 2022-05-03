@@ -1,7 +1,9 @@
+import Contact from './Components/Contact'
 import Header from './Components/Header'
 import Hero from './Components/Hero'
 import Projects from './Components/Projects'
 import Skills from './Components/Skills'
+import Work from './Components/Work'
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Hero />
       <Skills />
       <Projects />
+      <Work />
+      <Contact />
     </div>
   )
 }
