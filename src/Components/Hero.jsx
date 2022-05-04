@@ -2,6 +2,10 @@ import React from 'react'
 import SchoolIcon from '@mui/icons-material/School'
 import WorkIcon from '@mui/icons-material/Work'
 import InterestsIcon from '@mui/icons-material/Interests'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import GitHubIcon from '@mui/icons-material/GitHub'
+
+import { Button } from '@mui/material'
 const Hero = () => {
   return (
     <div className='about-section'>
@@ -31,8 +35,21 @@ const Hero = () => {
           <InterestsIcon className='icon' />
 
           <p className='hero-description'>
-            I am big football fan and love to read about space.
+            I am a big football fan and love to read about space.
           </p>
+        </div>
+        <div className='details-box'>
+          <Button variant='contained' color='warning' className='icon'>
+            Resume
+          </Button>
+          <a href='https://linkedin.com/in/shyamm2' target='_blank'>
+            <LinkedInIcon className='icon linkedin' />{' '}
+          </a>
+          <a href='https://github.com/mshyam25' target='_blank'>
+            <GitHubIcon className='icon github' />
+          </a>
+
+          <p></p>
         </div>
       </div>
     </div>
