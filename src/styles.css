@@ -9,7 +9,7 @@
 .heading-secondary,
 .heading-tertiary {
   font-weight: 700;
-  color: #333;
+
   letter-spacing: -0.5px;
 }
 
@@ -35,10 +35,10 @@
 
 .badge {
   font-size: 2.4rem;
-  border: solid 1px #ddd;
-  padding: 2rem;
-  border-radius: 12px;
-  background-color: #12b886;
+
+  padding: 1.4rem;
+  border-radius: 9px;
+  background-color: #1c7ed6;
   color: #fefefe;
 }
 
@@ -65,7 +65,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #12b886;
+  background-color: #fff;
   height: 9.6rem;
   padding: 0 4.8rem;
 }
@@ -79,6 +79,7 @@
   list-style: none;
   display: flex;
   align-items: center;
+
   gap: 3.2rem;
 }
 
@@ -86,22 +87,21 @@
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #333;
+  color: #1864ab;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   transition: all 0.3s;
 }
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #e6fcf5;
+  color: #495057;
 }
 
 /* Hero Section */
 
 .about-section {
   padding: 9.6rem 0 9.6rem 0;
-  border: solid 1px gray;
 }
 
 .about {
@@ -115,9 +115,31 @@
   gap: 2rem;
 }
 
+.contact-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3.2rem;
+}
+.contact-text {
+  font-size: 1.8rem;
+}
+.email,
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
 .icon {
   width: 5rem !important;
   height: 5rem !important;
+}
+.linkedin {
+  color: #4dabf7;
+}
+.github {
+  color: #dee2e6;
 }
 
 .hero-description {
@@ -126,26 +148,20 @@
   margin-bottom: 4.8rem;
 }
 
-.contact-link:link,
-.contact-link:visited {
-  display: inline-block;
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  font-size: 1.8rem;
-  border: solid 1 px red;
-  padding: 2.4rem;
-  transition: all 0.3s;
-}
-
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #333;
-  background-color: #12b886;
+  background-color: #ff6b6b;
   display: flex;
   align-items: center;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #1c7ed6;
+  color: #fefefe;
 }
 
 /* Skills Section */
@@ -178,7 +194,7 @@
   justify-content: center;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2.4rem 4.8rem rgba(32, 27, 27, 0.3);
+  box-shadow: 0 4.8rem 4.8rem rgba(220, 223, 223, 0.041);
 }
 
 .project-img {
@@ -210,13 +226,12 @@
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
-  border: solid 1px #ddd;
   padding: 1.6rem 2rem;
   border-radius: 9px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #12b886;
+  background-color: #1c7ed6;
 }
 
 .url-link:hover {
@@ -238,9 +253,10 @@
   flex-direction: column;
   align-items: center;
   gap: 2.4rem;
-
+  background-color: #fff3bf;
+  border-radius: 9px;
+  color: #333;
   padding: 3.2rem;
-  box-shadow: 0 2.4rem 4.8rem rgba(32, 27, 27, 0.1);
 }
 .role {
   font-size: 3.6rem;

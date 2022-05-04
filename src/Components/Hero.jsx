@@ -4,11 +4,12 @@ import WorkIcon from '@mui/icons-material/Work'
 import InterestsIcon from '@mui/icons-material/Interests'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import GitHubIcon from '@mui/icons-material/GitHub'
+import MailIcon from '@mui/icons-material/Mail'
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
 
-import { Button } from '@mui/material'
 const Hero = () => {
   return (
-    <div className='about-section'>
+    <div className='about-section' id='hero'>
       <div className='about'>
         <p className='heading-secondary'>
           Hi ! I am Shyam, a Full Stack Web Developer learning the tricks of the
@@ -40,7 +41,13 @@ const Hero = () => {
             and i am very keen to learn new technologies.
           </p>
         </div>
-        <div className='details-box'>
+        <div className='contact-box'>
+          <div className='email'>
+            {' '}
+            <MailIcon className='icon' />
+            <p className='contact-text'>shyammanikandan.22@gmail.com</p>
+          </div>
+
           <a
             class='main-nav-link nav-cta'
             href='https://drive.google.com/file/d/1Zj5ba_BvaJZ_EzWCH4ntIGQvQnJlQN3O/view?usp=sharing'
@@ -53,8 +60,11 @@ const Hero = () => {
           <a href='https://github.com/mshyam25' target='_blank'>
             <GitHubIcon className='icon github' />
           </a>
+          <div className='phone'>
+            <LocalPhoneIcon className='icon' />
 
-          <p></p>
+            <p className='contact-text'>8220977534</p>
+          </div>
         </div>
       </div>
     </div>

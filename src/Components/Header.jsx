@@ -2,14 +2,14 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='header'>
-      <a href='#' className='main-nav-link'>
+    <div className='header' id='header'>
+      <a href='#hero' className='main-nav-link'>
         SHYAM M
       </a>
       <nav className='main-nav'>
         <ul className='main-nav-list'>
           <li>
-            <a href='#' className='main-nav-link'>
+            <a href='#skills' className='main-nav-link'>
               Skills
             </a>
           </li>
@@ -19,13 +19,8 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href='#' className='main-nav-link'>
+            <a href='#work' className='main-nav-link'>
               Work
-            </a>
-          </li>
-          <li>
-            <a href='#' className='main-nav-link'>
-              Contact
             </a>
           </li>
         </ul>

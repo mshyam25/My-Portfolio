@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap'
 
 const Work = () => {
   return (
-    <div className='work-section'>
+    <div className='work-section' id='work'>
       <div className='container'>
         <p className='section-heading'>Work Experience</p>
       </div>
