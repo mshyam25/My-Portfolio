@@ -17,8 +17,8 @@ const Hero = () => {
         <div className='details-box'>
           <SchoolIcon className='icon' />
           <p className='hero-description'>
-            I am an Electronics and Communication Engineer graduated in 2017
-            from Thiagarajar College of Engineering.
+            I have a Bachelor's degree in Electronics and Communication
+            Engineering degree from Thiagarajar College of Engineering.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ const Hero = () => {
             <WorkIcon className='icon' />
           </p>
           <p className='hero-description'>
-            I am working for Tata Consultancy Services for the past 4 years.
+            I am currently employed by Tata Consultancy Services.
           </p>
         </div>
 
@@ -35,13 +35,18 @@ const Hero = () => {
           <InterestsIcon className='icon' />
 
           <p className='hero-description'>
-            I am a big football fan and love to read about space.
+            I developed interest in web development awstuck by the different UI
+            experiences.This made me choose Web development as my career path
+            and i am very keen to learn new technologies.
           </p>
         </div>
         <div className='details-box'>
-          <Button variant='contained' color='warning' className='icon'>
+          <a
+            class='main-nav-link nav-cta'
+            href='https://drive.google.com/file/d/1Zj5ba_BvaJZ_EzWCH4ntIGQvQnJlQN3O/view?usp=sharing'
+            target='_blank'>
             Resume
-          </Button>
+          </a>
           <a href='https://linkedin.com/in/shyamm2' target='_blank'>
             <LinkedInIcon className='icon linkedin' />{' '}
           </a>

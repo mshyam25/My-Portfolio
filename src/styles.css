@@ -116,7 +116,6 @@
 }
 
 .icon {
-  color: #12b886;
   width: 5rem !important;
   height: 5rem !important;
 }
@@ -125,6 +124,28 @@
   font-size: 3.2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
+}
+
+.contact-link:link,
+.contact-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  border: solid 1 px red;
+  padding: 2.4rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #333;
+  background-color: #12b886;
+  display: flex;
+  align-items: center;
 }
 
 /* Skills Section */
@@ -150,17 +171,22 @@
   padding: 4.8rem;
 }
 
-.project-details-box {
+.project-box {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 3.2rem;
+  border-radius: 12px;
+  overflow: hidden;
   box-shadow: 0 2.4rem 4.8rem rgba(32, 27, 27, 0.3);
 }
 
 .project-img {
   width: 100%;
+}
+
+.project-details-box {
+  padding: 2.4rem;
 }
 .project-title {
   font-size: 4.8rem;
@@ -247,7 +273,7 @@
   border-top: solid 1px #aaa;
   align-items: center;
   justify-content: center;
-
+  gap: 1.4rem;
   width: 100%;
   bottom: 0;
   padding-top: 0.8rem;

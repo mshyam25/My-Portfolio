@@ -6,11 +6,10 @@ const Contact = () => {
   return (
     <div className='contact-section'>
       <p class='footer-text'>
-        Copyright &copy; 2022 by TMS,Inc. All rights reserved.
+        Copyright &copy; 2022 by TMS,Inc. All rights reserved. Contact :
       </p>
       <div className='details-box'>
         <MailIcon className='footer-icon mail' />
-
         <p className='footer-text'>shyammanikandan.22@gmail.com</p>
       </div>
       <div className='details-box'>
