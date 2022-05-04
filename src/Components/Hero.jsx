@@ -18,8 +18,8 @@ const Hero = () => {
         <div className='details-box'>
           <SchoolIcon className='icon' />
           <p className='hero-description'>
-            I have a Bachelor's degree in Electronics and Communication
-            Engineering degree from Thiagarajar College of Engineering.
+            I Have a Bachelor's degree in Electronics and Communication
+            Engineering from Thiagarajar College of Engineering.
           </p>
         </div>
 
@@ -28,7 +28,9 @@ const Hero = () => {
             <WorkIcon className='icon' />
           </p>
           <p className='hero-description'>
-            I am currently employed by Tata Consultancy Services.
+            A Software Engineer working for Tata Consultancy Services, awstruck
+            by the differnet UI experiences, I gradually developed interest in
+            Web Development.
           </p>
         </div>
 
@@ -36,9 +38,9 @@ const Hero = () => {
           <InterestsIcon className='icon' />
 
           <p className='hero-description'>
-            I developed interest in web development awstuck by the different UI
-            experiences.This made me choose Web development as my career path
-            and i am very keen to learn new technologies.
+            I have done a few Full stack Projects and few mini projects. Apart
+            from work, I like to spend time reading about space and very
+            passionate about Football.
           </p>
         </div>
         <div className='contact-box'>

@@ -125,7 +125,8 @@
   margin-bottom: 4.8rem;
 }
 .contact-text {
-  font-size: 1.8rem;
+  font-size: 2.4rem;
+  font-weight: 500;
 }
 .email,
 .phone {
@@ -135,14 +136,19 @@
 }
 
 .icon {
-  width: 5rem !important;
-  height: 5rem !important;
+  width: 8rem !important;
+  height: 8rem !important;
 }
 .linkedin {
   color: #4dabf7;
 }
 .github {
   color: #dee2e6;
+}
+
+.linkedin:hover,
+.github:hover {
+  color: #495057;
 }
 
 .hero-description {
@@ -153,7 +159,7 @@
 
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
-  padding: 1.2rem 2.4rem;
+  padding: 2rem 2.4rem;
   border-radius: 9px;
   color: #333;
   background-color: #ff6b6b;
