@@ -7,7 +7,7 @@ import Work from './Components/Work'
 
 function App() {
   return (
-    <div>
+    <div className='main'>
       <Header />
       <Hero />
       <Skills />

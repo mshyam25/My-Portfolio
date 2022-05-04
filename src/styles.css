@@ -1,4 +1,5 @@
 /* General Reusuable Components */
+
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;
@@ -64,6 +65,7 @@
 
 .header {
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
@@ -102,6 +104,7 @@
 /* Hero Section */
 
 .about-section {
+  position: relative;
   padding: 9.6rem 0 9.6rem 0;
 }
 
@@ -206,7 +209,7 @@
   justify-content: center;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4.8rem 4.8rem rgba(220, 223, 223, 0.041);
+  box-shadow: 0 4.8rem 4.8rem rgba(245, 245, 245, 0.1);
 }
 
 .project-img {
