@@ -1,4 +1,4 @@
-/* Genral Reusuable Components */
+/* General Reusuable Components */
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;
@@ -267,10 +267,20 @@
   flex-direction: column;
   align-items: center;
   gap: 2.4rem;
-  background-color: #fff3bf;
+
   border-radius: 9px;
   color: #333;
   padding: 3.2rem;
+}
+.work-1 {
+  background-color: #bac8ff;
+}
+.work-2 {
+  background-color: #a9e34b;
+}
+.work-3 {
+  color: #eee;
+  border: solid 2px #eee;
 }
 .role {
   font-size: 3rem;
@@ -283,7 +293,7 @@
 .time {
   font-size: 2rem;
   font-weight: 600;
-  color: #aaa;
+  color: #888;
 }
 
 .work-description {

@@ -16,7 +16,7 @@ const Contact = () => {
       </div>
 
       <p class='footer-text'>
-        Copyright &copy; 2022 by TMS,Inc. All rights reserved. Contact :
+        Copyright &copy; 2022 by TMS,Inc. All rights reserved.
       </p>
     </div>
   )

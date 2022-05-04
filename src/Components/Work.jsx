@@ -8,15 +8,15 @@ const Work = () => {
         <p className='section-heading'>Work Experience</p>
       </div>
       <div className='work--box'>
-        <div className='work-exp'>
+        <div className='work-exp work-1'>
           <p className='role'>Trainee - Developer</p>
           <p className='company'>Tata Consultancy Services</p>
           <p className='time'>03/2018 - 06/2018</p>
           <ul>
             <li>
               <p className='task'>
-                Developed UI (Customer and Admin Modules) for DTH Company
-                Website using Standard Html and CSS Practices.
+                Developed UI (Customer and Admin Modules) using Standard Html
+                and CSS Practices.
               </p>
             </li>
             <li>
@@ -27,7 +27,7 @@ const Work = () => {
             </li>
           </ul>
         </div>
-        <div className='work-exp'>
+        <div className='work-exp work-2'>
           <p className='role'>Technical Analyst</p>
           <p className='company'>Tata Consultancy Services</p>
           <p className='time'>07/2018 - 03/2021</p>
@@ -46,17 +46,21 @@ const Work = () => {
             </li>
           </ul>
         </div>
-        <div className='work-exp'>
+        <div className='work-exp work-3'>
           <p className='role'>Junior Developer</p>
           <p className='company'>Tata Consultancy Services</p>
           <p className='time'>04/2021 - Present</p>
           <ul>
             <li>
-              <p className='task'>UI Development using React.js</p>
+              <p className='task'>
+                UI Development using React.js and Backend development using
+                node.js
+              </p>
             </li>
             <li>
               <p className='task'>
-                Developing new UI components based on Requirements
+                Developing new UI components based on Requirements using
+                functional components.
               </p>
             </li>
           </ul>
