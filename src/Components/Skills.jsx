@@ -8,6 +8,7 @@ const Skills = () => {
         <p className='badge'>Html & CSS</p>
         <p className='badge'>React js</p>
         <p className='badge'>Redux</p>
+        <p className='badge'>Javascript</p>
         <p className='badge'>Node js</p>
         <p className='badge'>Express js</p>
         <p className='badge'>Mongodb</p>

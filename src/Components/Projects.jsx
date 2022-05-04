@@ -187,7 +187,7 @@ const Projects = () => {
           <div className='project-box'>
             <div className='project-img-box'>
               <img
-                src='img/high .png'
+                src='img/high.png'
                 alt='Highlights App Home Screenshot'
                 className='project-img'
               />

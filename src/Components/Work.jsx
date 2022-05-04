@@ -47,7 +47,7 @@ const Work = () => {
           </ul>
         </div>
         <div className='work-exp'>
-          <p className='role'>Developer</p>
+          <p className='role'>Junior Developer</p>
           <p className='company'>Tata Consultancy Services</p>
           <p className='time'>04/2021 - Present</p>
           <ul>
