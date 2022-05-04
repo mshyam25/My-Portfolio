@@ -7,7 +7,7 @@ const Work = () => {
       <div className='container'>
         <p className='section-heading'>Work Experience</p>
       </div>
-      <div className='work-education-box grid grid--3--cols'>
+      <div className='work--box'>
         <div className='work-exp'>
           <p className='role'>Trainee - Developer</p>
           <p className='company'>Tata Consultancy Services</p>

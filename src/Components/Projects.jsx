@@ -1,12 +1,12 @@
 import React from 'react'
-import { Card } from 'react-bootstrap'
+
 const Projects = () => {
   return (
     <>
       <div className='projects-section' id='projects'>
         <h2 className='section-heading'>Full Stack Projects</h2>
 
-        <div className='projects-box grid grid--2--cols grid--center-v'>
+        <div className='projects-box'>
           <div className='project-box'>
             <div className='project-img-box'>
               <img

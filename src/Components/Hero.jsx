@@ -42,12 +42,6 @@ const Hero = () => {
           </p>
         </div>
         <div className='contact-box'>
-          <div className='email'>
-            {' '}
-            <MailIcon className='icon' />
-            <p className='contact-text'>shyammanikandan.22@gmail.com</p>
-          </div>
-
           <a
             class='main-nav-link nav-cta'
             href='https://drive.google.com/file/d/1Zj5ba_BvaJZ_EzWCH4ntIGQvQnJlQN3O/view?usp=sharing'
@@ -60,10 +54,18 @@ const Hero = () => {
           <a href='https://github.com/mshyam25' target='_blank'>
             <GitHubIcon className='icon github' />
           </a>
+        </div>
+
+        <div className='contact-box'>
           <div className='phone'>
             <LocalPhoneIcon className='icon' />
 
             <p className='contact-text'>8220977534</p>
+          </div>
+          <div className='email'>
+            {' '}
+            <MailIcon className='icon' />
+            <p className='contact-text'>shyammanikandan.22@gmail.com</p>
           </div>
         </div>
       </div>
