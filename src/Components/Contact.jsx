@@ -1,23 +1,43 @@
 import React from 'react'
-import { Button } from 'react-bootstrap'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import GitHubIcon from '@mui/icons-material/GitHub'
 import MailIcon from '@mui/icons-material/Mail'
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
 const Contact = () => {
   return (
-    <div className='contact-section'>
-      <div className='details-box'>
-        <LocalPhoneIcon />
+    <div className='contact-section' id='contact'>
+      <div className='footer-contact-box'>
+        <p className='contact-text'>Contact : </p>
+        <div className='contacts'>
+          <div className='phone'>
+            <LocalPhoneIcon className='footer-icon' />
 
-        <p className='footer-text'>8220977534</p>
+            <a href='tel:8220977534' className='phone-text'>
+              8220977534
+            </a>
+          </div>
+          <div className='email'>
+            {' '}
+            <MailIcon className='footer-icon' />
+            <a
+              href='mailto: shyammanikandan.22@gmail.com'
+              className='phone-text'>
+              shyammanikandan.22@gmail.com
+            </a>
+          </div>
+        </div>
       </div>
-      <div className='details-box'>
-        <MailIcon className='footer-icon mail' />
-        <p className='footer-text'>shyammanikandan.22@gmail.com</p>
+      <div className='footer-contact-box'>
+        <p className='contact-text'>Check out my Profiles here : </p>
+        <div className='profiles'>
+          <a href='https://linkedin.com/in/shyamm2' target='_blank'>
+            <LinkedInIcon className='icon linkedin' />{' '}
+          </a>
+          <a href='https://github.com/mshyam25' target='_blank'>
+            <GitHubIcon className='icon github' />
+          </a>
+        </div>
       </div>
-
-      <p class='footer-text'>
-        Copyright &copy; 2022 by TMS,Inc. All rights reserved.
-      </p>
     </div>
   )
 }
