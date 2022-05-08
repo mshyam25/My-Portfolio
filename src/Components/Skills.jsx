@@ -2,8 +2,10 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div className='skills-section' id='skills'>
-      <h2 className='section-heading'>Skills and Tools</h2>
+    <div className='skills-section'>
+      <h2 className='section-heading' id='skills'>
+        Skills and Tools
+      </h2>
       <div className='skills'>
         <div className='skill-box'>
           <img

@@ -9,6 +9,11 @@ const Header = () => {
       <nav className='main-nav'>
         <ul className='main-nav-list'>
           <li>
+            <a href='#about' className='main-nav-link'>
+              About
+            </a>
+          </li>
+          <li>
             <a href='#skills' className='main-nav-link'>
               Skills
             </a>
@@ -21,6 +26,11 @@ const Header = () => {
           <li>
             <a href='#work' className='main-nav-link'>
               Work
+            </a>
+          </li>
+          <li>
+            <a href='#contact' className='main-nav-link'>
+              Contact
             </a>
           </li>
         </ul>

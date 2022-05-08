@@ -7,8 +7,10 @@ const Projects = () => {
   const tooltipStyle = { fontSize: '1.8rem' }
   return (
     <>
-      <div className='container' id='projects'>
-        <h2 className='section-heading'>Full Stack Projects</h2>
+      <div className='container'>
+        <h2 className='section-heading' id='projects'>
+          Full Stack Projects
+        </h2>
 
         <div className='projects-container'>
           <div className='project-img-box flex-center-all'>

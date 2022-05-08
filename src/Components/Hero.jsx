@@ -32,7 +32,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='about-section'>
+      <div id='about' className='about-section'>
         <h2 className='section-heading'>About Me</h2>
         <div className='details-box'>
           <SchoolIcon className='icon' />
