@@ -47,7 +47,7 @@ const Hero = () => {
             <WorkIcon className='icon' />
           </p>
           <p className='about-me-text'>
-            A Software Engineer working for Tata Consultancy Services, awstruck
+            A Software Engineer working for Tata Consultancy Services, awestruck
             by the differnet UI experiences, I gradually developed interest in
             Web Development.
           </p>
