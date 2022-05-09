@@ -398,7 +398,8 @@
 
 .contact-section {
   display: flex;
-  gap: 9.6rem;
+  flex-direction: column;
+  gap: 3.2rem;
   align-items: center;
   justify-content: center;
   background-color: #fff;
@@ -410,8 +411,8 @@
 
 .footer-contact-box {
   display: flex;
-  flex-direction: column;
-  gap: 1.8rem;
+
+  gap: 4.8rem;
   justify-content: center;
 }
 
@@ -422,7 +423,7 @@
 
 .footer-contacts {
   display: flex;
-  gap: 3.2rem;
+  gap: 1rem;
 }
 .email,
 .phone {

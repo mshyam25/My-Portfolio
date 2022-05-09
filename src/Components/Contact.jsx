@@ -6,8 +6,8 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
 const Contact = () => {
   return (
     <div className='contact-section' id='contact'>
+      <p className='contact-text'>Contact Me</p>
       <div className='footer-contact-box'>
-        <p className='contact-text'>Contact : </p>
         <div className='footer-contacts'>
           <div className='phone'>
             <LocalPhoneIcon className='footer-icon' />
@@ -26,9 +26,7 @@ const Contact = () => {
             </a>
           </div>
         </div>
-      </div>
-      <div className='footer-contact-box'>
-        <p className='contact-text'>Check out my Profiles here : </p>
+
         <div className='profiles'>
           <a href='https://linkedin.com/in/shyamm2' target='_blank'>
             <LinkedInIcon className='icon linkedin' />{' '}
