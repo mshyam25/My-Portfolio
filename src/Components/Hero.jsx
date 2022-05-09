@@ -26,7 +26,7 @@ const Hero = () => {
               target='_blank'>
               Resume
             </a>
-            <a class='main-nav-link contact' href='#Contact'>
+            <a class='main-nav-link contact' href='#contact'>
               Contact me
             </a>
           </div>
@@ -48,7 +48,7 @@ const Hero = () => {
           </p>
           <p className='about-me-text'>
             A Software Engineer working for Tata Consultancy Services, awestruck
-            by the differnet UI experiences, I gradually developed interest in
+            by the different UI experiences, I gradually developed interest in
             Web Development.
           </p>
         </div>
@@ -61,14 +61,6 @@ const Hero = () => {
             about Football.
           </p>
         </div>
-        {/* <div className='contact-box'>
-          <a href='https://linkedin.com/in/shyamm2' target='_blank'>
-            <LinkedInIcon className='icon linkedin' />{' '}
-          </a>
-          <a href='https://github.com/mshyam25' target='_blank'>
-            <GitHubIcon className='icon github' />
-          </a>
-        </div> */}
       </div>
     </div>
   )
