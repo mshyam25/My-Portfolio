@@ -8,7 +8,7 @@ const Contact = () => {
     <div className='contact-section' id='contact'>
       <div className='footer-contact-box'>
         <p className='contact-text'>Contact : </p>
-        <div className='contacts'>
+        <div className='footer-contacts'>
           <div className='phone'>
             <LocalPhoneIcon className='footer-icon' />
 

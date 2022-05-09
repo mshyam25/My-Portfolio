@@ -7,7 +7,7 @@ const Work = () => {
         <p className='section-heading'>Work Experience</p>
       </div>
       <div className='work--box'>
-        <div className='work-exp'>
+        <div className='work-exp work-1'>
           <div className='time-line'>
             <p className='time'>04/2021 - Present</p>
             <p className='company'>Tata Consultancy Services</p>
