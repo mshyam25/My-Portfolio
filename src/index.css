@@ -17,7 +17,8 @@ body {
   line-height: 1;
   font-weight: 400;
   background-color: #fff;
-  /* background-image: linear-gradient(#fff, #a5d8ff); */
+
+  background-image: linear-gradient(#fff, #4dabf7);
   color: #555;
 }
 

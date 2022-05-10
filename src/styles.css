@@ -34,6 +34,7 @@
   font-weight: 500;
   text-align: center;
   margin-bottom: 9.6rem;
+  color: #222;
 }
 
 .grid {
@@ -60,7 +61,7 @@
   justify-content: space-between;
   align-items: center;
   /* background-color: #339af0; */
-  background-image: linear-gradient(to left, #339af0, #a5d8ff);
+  background-image: linear-gradient(to left, #74c0fc, #a5d8ff);
   height: 6.4rem;
   padding: 1rem 2.4rem;
   position: fixed;
@@ -155,6 +156,7 @@
   font-size: 2.6rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
+  color: #222;
 }
 
 .contact-box {
@@ -168,16 +170,16 @@
 .main-nav-link.nav-cta:visited {
   padding: 2rem 2.4rem;
   border-radius: 9px;
-  color: #fff;
-  background-color: #1c7ed6;
+  color: #555;
+  background-color: #e9ecef;
   display: flex;
   align-items: center;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #1864ab;
-  color: #222;
+  background-color: #1c7ed6;
+  color: #fff;
 }
 
 .main-nav-link.contact:link,
@@ -192,8 +194,8 @@
 
 .main-nav-link.contact:hover,
 .main-nav-link.contact:active {
-  background-color: #f1f3f5;
-  color: #222;
+  background-color: #1c7ed6;
+  color: #fff;
 }
 
 /* Skills Section */
@@ -218,6 +220,7 @@
   gap: 1.6rem;
   padding: 1.8rem 0;
   border-radius: 9px;
+  background-color: #f1f3f5;
   box-shadow: 0px 0px 15px rgba(117, 115, 115, 0.1);
 }
 .skill-icon {
@@ -244,6 +247,8 @@
 .project {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: #f1f3f5;
+  border-radius: 12px;
   box-shadow: 0px 0px 15px rgba(117, 115, 115, 0.1);
 }
 
@@ -345,23 +350,22 @@
   padding: 0 4.8rem 4.8rem 4.8rem;
 }
 
-.work-1 {
-  background-color: #c3fae8;
-}
 .work-exp {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4.8rem;
   align-items: center;
   border-radius: 9px;
+  background-color: #e9fac8;
+  /* background-image: linear-gradient(to left, #fff, #222); */
   color: #212529;
   padding: 4.8rem;
   box-shadow: 0px 0px 15px rgba(117, 115, 115, 0.1);
 
   transition: all 0.5s;
 }
+
 .work-exp:hover {
-  /* background-color: #087f5b; */
   transform: scale(1.05);
 }
 
@@ -401,6 +405,9 @@
   font-weight: 400;
 }
 
+.work-1 {
+  background-image: linear-gradient(to left, #fff, #868e96);
+}
 /* Contact */
 
 .contact-section {
