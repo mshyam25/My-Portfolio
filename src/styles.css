@@ -220,7 +220,7 @@
   gap: 1.6rem;
   padding: 1.8rem 0;
   border-radius: 9px;
-  background-color: #f1f3f5;
+  background-color: #e7f5ff;
   box-shadow: 0px 0px 15px rgba(117, 115, 115, 0.1);
 }
 .skill-icon {
@@ -247,9 +247,9 @@
 .project {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #f1f3f5;
-  border-radius: 12px;
-  box-shadow: 0px 0px 15px rgba(117, 115, 115, 0.1);
+  background-color: #343a40;
+  border-radius: 9px;
+  box-shadow: 5px 5px 15px rgba(22, 23, 23, 0.2);
 }
 
 .project-img-box {
@@ -277,7 +277,7 @@
 .project-title {
   font-size: 3.6rem;
   font-weight: 600;
-  color: #555;
+  color: #f1f3f5;
   line-height: 1.3;
   margin-bottom: 4.8rem;
 }
@@ -415,8 +415,8 @@
   gap: 3.2rem;
   align-items: center;
   justify-content: center;
-  background-color: #e7f5ff;
-  /* background-image: linear-gradient(to left, #fff, #a5d8ff); */
+  /* background-color: #e7f5ff; */
+  border-top: solid 1px #555;
   color: #222;
   width: 100%;
   bottom: 0;
