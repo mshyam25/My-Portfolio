@@ -16,9 +16,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1;
   font-weight: 400;
-  background-color: #fff;
-
-  background-image: linear-gradient(#fff, #4dabf7);
   color: #555;
 }
 

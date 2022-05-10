@@ -249,7 +249,7 @@
   grid-template-columns: 1fr 1fr;
   background-color: #f1f3f5;
   border-radius: 12px;
-  box-shadow: 0px 0px 15px rgba(117, 115, 115, 0.1);
+  box-shadow: 0px 0px 15px rgba(117, 115, 115, 0.2);
 }
 
 .project-img-box {
@@ -356,11 +356,10 @@
   gap: 4.8rem;
   align-items: center;
   border-radius: 9px;
-  background-color: #e9fac8;
-  /* background-image: linear-gradient(to left, #fff, #222); */
+
   color: #212529;
   padding: 4.8rem;
-  box-shadow: 0px 0px 15px rgba(117, 115, 115, 0.1);
+  box-shadow: 0px 0px 15px rgba(117, 115, 115, 0.4);
 
   transition: all 0.5s;
 }
@@ -406,7 +405,8 @@
 }
 
 .work-1 {
-  background-image: linear-gradient(to left, #fff, #868e96);
+  /* background-image: linear-gradient(to left, #fff, #868e96); */
+  background-color: #e9fac8;
 }
 /* Contact */
 
