@@ -176,11 +176,84 @@ const Projects = () => {
           <div className='project project-3'>
             <div className='project-img-box flex-center-all'>
               <img
-                src='img/markdown_800x400.png'
+                src='img/merchandise.png'
                 alt='Markdown App Home Screenshot'
                 className='project-img'
               />
             </div>
+            <div className='project-details-box flex-center-all'>
+              <p className='project-title'>Club Merchandise App</p>
+              <div className='project-links'>
+                <a
+                  href='https://github.com/mshyam25/Merchandise-FE.git'
+                  target='_blank'
+                  rel='noreferrer'>
+                  <Tooltip
+                    title={<h1 style={tooltipStyle}>Source Code Frontend</h1>}>
+                    <IconButton>
+                      <GitHubIcon className='project-link-icon frontend-git-icon' />
+                    </IconButton>
+                  </Tooltip>
+                </a>
+                <a
+                  href='https://github.com/mshyam25/merchandise-BE.git'
+                  target='_blank'
+                  rel='noreferrer'>
+                  <Tooltip
+                    title={
+                      <h1 style={{ fontSize: '1.8rem' }}>
+                        Source Code Backend
+                      </h1>
+                    }>
+                    <IconButton>
+                      <GitHubIcon className='project-link-icon backend-git-icon' />
+                    </IconButton>
+                  </Tooltip>
+                </a>
+
+                <a
+                  href='https://utd-merchandise.netlify.app'
+                  target='_blank'
+                  rel='noreferrer'>
+                  <Tooltip
+                    title={
+                      <h1 style={{ fontSize: '1.8rem' }}>
+                        Netlify Deployment Link
+                      </h1>
+                    }>
+                    <IconButton>
+                      <img
+                        src='img/projects/netlify-icon.svg'
+                        className='project-link-icon'
+                        alt='Netlify icon'
+                      />
+                    </IconButton>
+                  </Tooltip>
+                </a>
+
+                <a
+                  href='https://utd-merchandise-app.herokuapp.com'
+                  target='_blank'
+                  rel='noreferrer'>
+                  <Tooltip
+                    title={
+                      <h1 style={{ fontSize: '1.8rem' }}>
+                        Heroku Deployment Link
+                      </h1>
+                    }>
+                    <IconButton>
+                      <img
+                        src='img/projects/heroku-icon.svg'
+                        className='project-link-icon'
+                        alt='Heroku icon'
+                      />
+                    </IconButton>
+                  </Tooltip>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className='project project-4'>
             <div className='project-details-box flex-center-all'>
               <p className='project-title'>React Markdown App</p>
               <div className='project-links'>
@@ -251,6 +324,13 @@ const Projects = () => {
                   </Tooltip>
                 </a>
               </div>
+            </div>
+            <div className='project-img-box flex-center-all'>
+              <img
+                src='img/markdown_800x400.png'
+                alt='Markdown App Home Screenshot'
+                className='project-img'
+              />
             </div>
           </div>
         </div>
