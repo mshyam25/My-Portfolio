@@ -9,18 +9,12 @@ const Work = () => {
       <div className='work--box'>
         <div className='work-exp work-1'>
           <div className='time-line'>
-            <p className='time'>04/2021 - Present</p>
+            <p className='time'>01/2021 - Present</p>
             <p className='company'>Tata Consultancy Services</p>
           </div>
           <div className='roles'>
-            <p className='role'>Junior Developer</p>
+            <p className='role'>Developer</p>
             <ul>
-              <li>
-                <p className='task'>
-                  UI Development using React.js and Backend development using
-                  node.js
-                </p>
-              </li>
               <li>
                 <p className='task'>
                   Developing new UI components based on Requirements using
@@ -32,7 +26,7 @@ const Work = () => {
         </div>
         <div className='work-exp'>
           <div className='time-line'>
-            <p className='time'>07/2018 - 03/2021</p>
+            <p className='time'>06/2020 - 10/2021</p>
             <p className='company'>Tata Consultancy Services</p>
           </div>
           <div className='roles'>
@@ -40,8 +34,33 @@ const Work = () => {
             <ul>
               <li>
                 <p className='task'>
-                  Diagnosed software issues and applied troubleshooting
-                  techniques to resolve problems.
+                  Served as primary point of contact for support relating to
+                  owned solutions and products.
+                </p>
+              </li>
+              <li>
+                <p className='task'>
+                  Followed up with clients to verify optimal customer
+                  satisfaction following support engagement and problem
+                  resolution.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className='work-exp'>
+          <div className='time-line'>
+            <p className='time'>07/2018 - 05/2020</p>
+            <p className='company'>Tata Consultancy Services</p>
+          </div>
+          <div className='roles'>
+            <p className='role'>Production Support Engineer</p>
+            <ul>
+              <li>
+                <p className='task'>
+                  Worked with software development team on reported errors and
+                  bugs on newly released software and assisted in deployment of
+                  release fixes.
                 </p>
               </li>
               <li>
@@ -59,18 +78,18 @@ const Work = () => {
             <p className='company'>Tata Consultancy Services</p>
           </div>
           <div className='roles'>
-            <p className='role'>Trainee</p>
+            <p className='role'>Graduate Engineering Trainee</p>
             <ul>
               <li>
                 <p className='task'>
-                  Developed UI (Customer and Admin Modules) using Standard Html
-                  and CSS Practices.
+                  Planned website development, converting mockups into usable
+                  web presence with HTML, JavaScript, AJAX and JSON coding.
                 </p>
               </li>
               <li>
                 <p className='task'>
-                  Implemented a functionality to set the nearest store as the
-                  default store.
+                  Multi-tasked across multiple functions and roles to meet
+                  deadlines and organizational expectations.
                 </p>
               </li>
             </ul>

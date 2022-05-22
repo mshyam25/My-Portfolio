@@ -36,6 +36,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
+      <p>Portfolio &copy; Made with React</p>
     </div>
   )
 }

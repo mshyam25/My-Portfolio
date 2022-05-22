@@ -22,7 +22,7 @@ const Hero = () => {
           <div className='contact-box'>
             <a
               class='main-nav-link nav-cta'
-              href='https://drive.google.com/file/d/1Zj5ba_BvaJZ_EzWCH4ntIGQvQnJlQN3O/view?usp=sharing'
+              href='https://drive.google.com/file/d/1Xi1kUFWhRnyvOUbwSD21A26kHaSWVfup/view?usp=sharing'
               target='_blank'>
               Resume
             </a>
@@ -34,32 +34,34 @@ const Hero = () => {
       </div>
       <div id='about' className='about-section'>
         <h2 className='section-heading'>About Me</h2>
-        <div className='details-box'>
-          <SchoolIcon className='icon' />
+        <div className='about'>
+          <div className='details-box'>
+            <SchoolIcon className='icon' />
 
-          <p className='about-me-text'>
-            I Have a Bachelor's degree in Electronics and Communication
-            Engineering from Thiagarajar College of Engineering.
-          </p>
-        </div>
-        <div className='details-box'>
-          <p className='tertiary-heading'>
-            <WorkIcon className='icon' />
-          </p>
-          <p className='about-me-text'>
-            A Software Engineer working for Tata Consultancy Services, awestruck
-            by the different UI experiences, I gradually developed interest in
-            Web Development.
-          </p>
-        </div>
-        <div className='details-box'>
-          <InterestsIcon className='icon' />
+            <p className='about-me-text'>
+              I Have a Bachelor's degree in Electronics and Communication
+              Engineering from Thiagarajar College of Engineering.
+            </p>
+          </div>
+          <div className='details-box'>
+            <p className='tertiary-heading'>
+              <WorkIcon className='icon' />
+            </p>
+            <p className='about-me-text'>
+              A Software Engineer working for Tata Consultancy Services,
+              awestruck by the different UI experiences, I gradually developed
+              interest in Web Development.
+            </p>
+          </div>
+          <div className='details-box'>
+            <InterestsIcon className='icon' />
 
-          <p className='about-me-text'>
-            I have done a few Full stack Projects and mini projects. Apart from
-            work, I like to spend time reading about space and very passionate
-            about Football.
-          </p>
+            <p className='about-me-text'>
+              I have done a few Full stack Projects and mini projects. Apart
+              from work, I like to spend time reading about space and very
+              passionate about Football.
+            </p>
+          </div>
         </div>
       </div>
     </div>
