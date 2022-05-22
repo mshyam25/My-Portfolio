@@ -9,7 +9,7 @@ const Work = () => {
       <div className='work--box'>
         <div className='work-exp work-1'>
           <div className='time-line'>
-            <p className='time'>01/2021 - Present</p>
+            <p className='time'>11/2021 - Present</p>
             <p className='company'>Tata Consultancy Services</p>
           </div>
           <div className='roles'>
