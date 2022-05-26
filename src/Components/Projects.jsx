@@ -3,7 +3,6 @@ import Tooltip from '@mui/material/Tooltip'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import IconButton from '@mui/material/IconButton'
 const Projects = () => {
-  const tooltipStyle = { fontSize: '1.8rem' }
   return (
     <>
       <div className='container'>

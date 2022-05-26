@@ -1,8 +1,11 @@
+/* 
+color: #032782;
+*/
+
 .container {
   max-width: 170rem;
   margin: 0 auto;
   margin-bottom: 12.8rem;
-  /* border: solid 1px black; */
 }
 
 .section-heading {
@@ -13,4 +16,10 @@
   text-align: center;
   margin-bottom: 9.6rem;
   color: #222;
+}
+
+.flex-center-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
