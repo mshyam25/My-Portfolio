@@ -2,8 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
-  margin-bottom: 9.6rem;
-  /* margin: 12.8rem auto; */
+  margin: 4.8rem 0 9.6rem;
 }
 
 .profile-img-box {
@@ -63,8 +62,8 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   transition: 0.5s;
-  background-color: #c0c2c3;
-  color: #01164d;
+  background-color: #eee;
+  color: #333;
 }
 
 .main-nav-link.contact:link,
