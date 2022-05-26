@@ -10,14 +10,14 @@ html {
 }
 
 body {
+  background-color: rgb(255, 255, 255);
   margin: 0;
   font-family: 'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1;
   font-weight: 400;
-
-  color: #555;
+  font-family: 'Poppins', sans-serif;
 }
 
 code {

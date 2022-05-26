@@ -20,6 +20,7 @@ const Projects = () => {
                 alt='Pizza Home Screenshot'
                 className='project-img'
               />
+              <p className='project-title'>Pizza Delivery App</p>
             </div>
             <div className='project-details-box flex-center-all'>
               <p className='project-title'>Pizza Delivery App</p>
@@ -171,15 +172,17 @@ const Projects = () => {
                 alt='TMS Home Screenshot'
                 className='project-img'
               />
+              <p className='project-title'>Movie Ticket Booking App</p>
             </div>
           </div>
           <div className='project project-3'>
             <div className='project-img-box flex-center-all'>
               <img
                 src='img/merchandise.png'
-                alt='Markdown App Home Screenshot'
+                alt='Merchandise App Home Screenshot'
                 className='project-img'
               />
+              <p className='project-title'>Club Merchandise App</p>
             </div>
             <div className='project-details-box flex-center-all'>
               <p className='project-title'>Club Merchandise App</p>
@@ -331,6 +334,7 @@ const Projects = () => {
                 alt='Markdown App Home Screenshot'
                 className='project-img'
               />
+              <p className='project-title'>React Markdown App</p>
             </div>
           </div>
         </div>
@@ -381,6 +385,7 @@ const Projects = () => {
                 className='project-img'
                 alt='Calculator Home Screen'
               />
+              <p className='project-title'>Calculator</p>
             </div>
           </div>
           <div className='project project-5'>
@@ -390,10 +395,10 @@ const Projects = () => {
                 className='project-img'
                 alt='Thirukural Generator Home Screen'
               />
+              <p className='project-title'>Thirukural Finder</p>
             </div>
 
             <div className='project-details-box flex-center-all'>
-              <p className='project-title'>Thirukural Finder</p>
               <div className='project-links'>
                 <a
                   href='https://github.com/mshyam25/Thirukural.git'
@@ -470,6 +475,7 @@ const Projects = () => {
                 alt='Highlights App Home Screenshot'
                 className='project-img'
               />
+              <p className='project-title'>Football Highlights Viewer</p>
             </div>
           </div>
         </div>

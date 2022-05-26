@@ -1,9 +1,10 @@
-import Contact from './Components/Contact'
+import Footer from './Components/Footer/Footer'
 import Header from './Components/Header'
 import Hero from './Components/Hero'
-import Projects from './Components/Projects'
+import Project from './Components/Projects'
 import Skills from './Components/Skills'
-import Work from './Components/Work'
+import Works from './Components/work/Works'
+import About from './Components/About/About'
 
 function App() {
   return (
@@ -11,9 +12,10 @@ function App() {
       <Header />
       <Hero />
       <Skills />
-      <Projects />
-      <Work />
-      <Contact />
+      <Project />
+      <About />
+      <Works />
+      <Footer />
     </div>
   )
 }

@@ -1,0 +1,75 @@
+.logo-text {
+  font-family: 'Arizonia', cursive;
+  font-size: 30px !important;
+  font-weight: 600 !important;
+  color: rgb(6, 131, 156);
+  color: #0c32a6;
+  text-decoration: none;
+}
+.logo_text_symbols {
+  font-size: 40px;
+  color: #080808;
+}
+.logo_text_symbols-1 {
+  color: #040404;
+}
+
+/* header styles */
+.header-text {
+  color: rgb(39, 39, 41);
+  font-size: 50px;
+  font-weight: 500;
+}
+.header-primary_text {
+  color: #032782;
+  font-weight: 500;
+}
+
+/* header styles Ends here */
+/* Media query starts here */
+@media (max-width: 991px) {
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    padding: 10px 10px;
+  }
+}
+@media (max-width: 769px) {
+  .logo-text {
+    font-size: 20px !important;
+  }
+  .logo_text_symbols {
+    font-size: 30px;
+  }
+  .header-text {
+    font-size: 30px;
+  }
+  .header-primary_text {
+    font-size: 25px;
+  }
+  .intro-section {
+    margin: 100px 10px 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo-text {
+    font-size: 17px !important;
+  }
+  .logo_text_symbols {
+    font-size: 17px !important;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.5rem;
+    padding: 10px 5px;
+  }
+  .header {
+    padding: 0.4rem 0.5rem;
+  }
+  .main-nav-list {
+    gap: 0.3rem;
+  }
+  .container {
+    margin: inherit;
+  }
+}
