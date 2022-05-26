@@ -1,0 +1,211 @@
+.work-timeline-container {
+  margin: 4.8rem;
+  padding: 4.8rem 2.4rem;
+}
+.timeline_container {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 10rem;
+}
+.timeline_container_heading {
+  text-align: center;
+  font-size: 6rem;
+  color: rgb(7, 6, 6);
+  text-transform: capitalize;
+  font-weight: 300;
+  margin-bottom: 10rem;
+}
+
+.timline_border {
+  position: absolute;
+  border-left: 3px dashed rgb(10, 10, 10);
+  width: 0px;
+  height: 55rem;
+  left: -15px;
+  display: none;
+  z-index: -1;
+}
+.timeline_container_heading {
+  /* heading */
+  margin-bottom: 15rem;
+}
+.timeline_container_card {
+  /* card */
+  width: 45%;
+  padding: 3rem 1rem 2rem 3rem;
+  border-radius: 10px;
+  display: block;
+  margin: -3rem 0px;
+  position: relative;
+  box-shadow: 0 15px 4.5rem rgba(0, 0, 0, 0.2);
+  margin-right: 0;
+  z-index: 1;
+  margin-bottom: 5px;
+  border-left: 5px solid #034281;
+}
+.timeline_container_card:nth-child(even) {
+  margin-left: auto;
+}
+.timeline_container_card:nth-child(even)::before {
+  content: '';
+  position: absolute;
+  left: -14%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid #191919;
+  border-radius: 50%;
+}
+.timeline_container_card:nth-child(even)::after {
+  content: '';
+  position: absolute;
+  left: -10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10%;
+  height: 4px;
+  background-color: rgb(6, 7, 7);
+  z-index: -1;
+}
+
+.timeline_container_card:nth-child(odd)::before {
+  content: '';
+  position: absolute;
+  right: -13%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid #191919;
+  border-radius: 50%;
+}
+.timeline_container_card:nth-child(odd)::after {
+  content: '';
+  position: absolute;
+  right: -9%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 9%;
+  height: 4px;
+  background-color: rgb(22, 22, 22);
+  z-index: -1;
+}
+
+.timeline_container_card::before {
+  background-color: #031759f3;
+}
+
+.timeline_container_card:nth-child(even) .timeline_container_card_body::before {
+  content: '';
+  position: absolute;
+  left: -12%;
+  top: -70%;
+  width: 0px;
+  height: 53.8rem;
+  border: 1px dashed rgb(25, 24, 24);
+  z-index: -1;
+}
+.timeline_container_card_title {
+  /* card-title */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.timeline_companyname {
+  font-size: 1.6rem;
+  margin: 1rem 0px;
+  color: #131313;
+  width: max-content;
+}
+.timeline_role {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin: 1.5rem 0px;
+}
+.timeline_container_card_details {
+  font-size: 1.8rem;
+  margin: 10px 0px;
+}
+.timeline_container_card_details ul li {
+  font-size: 1.8rem;
+  margin: 2rem;
+}
+
+@media (max-width: 1240px) {
+  .timeline_container_heading {
+    font-size: 2rem;
+  }
+  .timeline_container_card {
+    width: 100%;
+    margin: 2rem 0px;
+  }
+  .timeline_container_card:nth-child(even)
+    .timeline_container_card_body::before {
+    display: none;
+  }
+  .timeline_container_card:nth-child(even)::before,
+  .timeline_container_card:nth-child(odd)::before {
+    left: -6.3%;
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+  .timline_border {
+    display: block;
+    left: -5.5%;
+    height: 100.4rem;
+  }
+  .timeline_container_card:nth-child(even)::after,
+  .timeline_container_card:nth-child(odd)::after {
+    left: -5%;
+    width: 5%;
+    background-color: rgb(5, 6, 6);
+  }
+}
+@media (max-width: 991px) {
+  .work-timeline-container {
+    margin: 0px 0px 50px;
+  }
+}
+@media (max-width: 769px) {
+  .timeline_container_card:nth-child(even)::before,
+  .timeline_container_card:nth-child(odd)::before {
+    left: -6.7%;
+  }
+  .timline_border {
+    height: 95rem;
+  }
+  .timeline_container_card {
+    width: 100%;
+    padding: 1.5rem 1rem 1rem 1.2rem;
+  }
+  .timeline_container {
+    margin: 1rem 1rem 1rem 5rem;
+  }
+  .timeline_container_card_title {
+    font-size: 2rem;
+  }
+  .timeline_companyname {
+    font-size: 1.5rem;
+  }
+  .timeline_container_card_details {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 555px) {
+  .timeline_container_card_details ul li {
+    font-size: 13px;
+  }
+  .timeline_container {
+    margin: 10px 10px 10px 25px;
+  }
+  .timline_border {
+    left: -5%;
+  }
+  .timeline_container_card:nth-child(even)::before,
+  .timeline_container_card:nth-child(odd)::before {
+    width: 10px;
+    height: 10px;
+  }
+}
