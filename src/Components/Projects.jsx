@@ -9,7 +9,7 @@ const Projects = () => {
     <>
       <div className='container'>
         <h2 className='section-heading' id='projects'>
-          Full Stack Projects
+          Full Stack Project
         </h2>
 
         <div className='projects-container'>
