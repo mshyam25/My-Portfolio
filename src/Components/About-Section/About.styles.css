@@ -1,0 +1,81 @@
+.about_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about_container_box {
+  position: relative;
+  width: 30%;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  background-color: #f1f3f5;
+  padding: 6.4rem 4.8rem 9.6rem;
+  margin: 4.8rem auto;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+  transition: 0.5s ease-in-out;
+  border-radius: 12px;
+}
+.about_container_box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #032782;
+  transform: scaleX(0);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+  border-radius: 10px;
+}
+.about_container_box:hover::before {
+  cursor: pointer;
+  transform: scaleX(1);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+}
+.about_container .about_container_box h2 {
+  position: absolute;
+
+  left: 14rem;
+  top: 10.8rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  z-index: 1;
+  opacity: 0.2;
+  transition: 0.5s;
+  color: #fff;
+}
+.about_container .about_container_box:hover h2 {
+  opacity: 1;
+  color: rgb(255, 255, 255);
+  transform: translateY(-40px);
+}
+.about_container .about_container_box h3 {
+  position: relative;
+  font-size: 2.5rem;
+  z-index: 2;
+  color: #333;
+  transition: 0.5s;
+}
+.about_container .about_container_box p {
+  position: relative;
+  color: #555;
+  transition: 0.5s;
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+  transition: 0.5s;
+}
+
+.about_container .about_container_box:hover h3,
+.about_container .about_container_box:hover p,
+.about_container .about_container_box:hover .about_icon {
+  color: #fff;
+}
+.about_icon {
+  width: 4rem !important;
+  height: 4rem !important;
+  color: #032782;
+}
