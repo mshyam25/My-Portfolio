@@ -4,6 +4,7 @@ import ProjectsSection from './Components/Projects-Section/ProjectsSection'
 import SkillsSection from './Components/Skills-Section/SkillsSection'
 import AboutSection from './Components/About-Section/AboutSection'
 import WorkSection from './Components/Work-Section/WorkSection'
+import Footer from './Components/Footer/Footer'
 function App() {
   return (
     <div className='main'>
@@ -13,7 +14,7 @@ function App() {
       <ProjectsSection />
       <AboutSection />
       <WorkSection />
-      <h1>Portfolio</h1>
+      <Footer />
     </div>
   )
 }
