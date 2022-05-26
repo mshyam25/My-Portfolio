@@ -394,6 +394,7 @@ const ProjectsSection = () => {
                 className='project-img'
                 alt='Thirukural Generator Home Screen'
               />
+              <p className='project-title'>Thirukural Finder</p>
             </div>
 
             <div className='project-details-box flex-center-all'>
