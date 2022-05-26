@@ -2,10 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 .container {
   max-width: 160rem;
   padding: 0 3.2rem;
   margin: 9.6rem auto;
+  border: solid 1px black;
 }
 
 .flex-center-all {
@@ -57,25 +59,6 @@
 
 .grid--center-v {
   align-items: center;
-}
-
-/* Header */
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ffffff;
-  box-shadow: 0px 0px 19px -9px #111;
-  height: 6.4rem;
-  padding: 1rem 2.4rem;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 3;
-}
-.logo {
-  height: 2.2rem;
 }
 
 /* Navigation */
