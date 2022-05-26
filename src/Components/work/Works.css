@@ -1,9 +1,15 @@
+/* .timeline_container {
+  position: relative;
+  margin: 50px 0;
+} */
 .full_timeline_container {
   margin: 0px 0px 150px;
   padding: 50px 0px;
 }
 .timeline_container {
+  /* timeline */
   display: block;
+  /* width: 80%; */
   display: flex;
   flex-direction: column;
   margin: 10px 100px;
@@ -19,10 +25,10 @@
 
 .timline_border {
   position: absolute;
-  border-left: 8px solid rgb(10, 10, 10);
+  border-left: 3px dashed rgb(10, 10, 10);
   width: 0px;
   height: 550px;
-  left: -35px;
+  left: -15px;
   display: none;
   z-index: -1;
 }
@@ -48,46 +54,46 @@
   margin-left: auto;
 }
 .timeline_container_card:nth-child(even)::before {
-  content: '';
+  content: "";
   position: absolute;
-  left: -13%;
+  left: -14%;
   top: 50%;
   transform: translateY(-50%);
-  width: 21px;
-  height: 21px;
+  width: 20px;
+  height: 20px;
   border: 2px solid #191919;
   border-radius: 50%;
 }
 .timeline_container_card:nth-child(even)::after {
-  content: '';
+  content: "";
   position: absolute;
-  left: -11%;
+  left: -10%;
   top: 50%;
   transform: translateY(-50%);
-  width: 11%;
+  width: 10%;
   height: 4px;
   background-color: rgb(6, 7, 7);
-  z-index: -4;
+  z-index: -1;
 }
 
 .timeline_container_card:nth-child(odd)::before {
-  content: '';
+  content: "";
   position: absolute;
   right: -13%;
   top: 50%;
   transform: translateY(-50%);
-  width: 21px;
-  height: 21px;
+  width: 20px;
+  height: 20px;
   border: 2px solid #191919;
   border-radius: 50%;
 }
 .timeline_container_card:nth-child(odd)::after {
-  content: '';
+  content: "";
   position: absolute;
-  right: -12%;
+  right: -9%;
   top: 50%;
   transform: translateY(-50%);
-  width: 12%;
+  width: 9%;
   height: 4px;
   background-color: rgb(22, 22, 22);
   z-index: -1;
@@ -98,13 +104,13 @@
 }
 
 .timeline_container_card:nth-child(even) .timeline_container_card_body::before {
-  content: '';
+  content: "";
   position: absolute;
   left: -12%;
   top: -70%;
   width: 0px;
   height: 538px;
-  border: 2px solid rgb(25, 24, 24);
+  border: 1px dashed rgb(25, 24, 24);
   z-index: -1;
 }
 .timeline_container_card_title {
@@ -114,15 +120,15 @@
   font-weight: 500;
 }
 .timeline_companyname {
-  font-size: 1.6rem;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 600;
   margin: 10px 0px;
   color: #131313;
   width: max-content;
 }
 .timeline_role {
-  font-size: 2.4rem;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 400;
   margin: 15px 0px;
 }
 .timeline_container_card_details {

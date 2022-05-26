@@ -1,10 +1,10 @@
-import About from './Components/About/About'
 import Footer from './Components/Footer/Footer'
 import Header from './Components/Header'
 import Hero from './Components/Hero'
-import Project from './Components/Projects/Project'
+import Project
 import Skills from './Components/Skills'
 import Works from './Components/work/Works'
+import About from './Components/About/About'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Skills />
-      <Project />
+      <Project
       <About />
       <Works />
       <Footer />

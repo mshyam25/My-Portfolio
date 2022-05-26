@@ -211,24 +211,25 @@
 /* Skills Section */
 
 .skills-section {
-  max-width: 80rem;
+  max-width: 110rem;
+  /* padding: 0 3.2rem; */
   margin: 0 auto;
   margin-bottom: 12.8rem;
 }
 .skills {
+  margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3.4rem;
-  margin-top: 40px;
-  padding: 0 4.8rem;
+  /* padding: 0 4.8rem; */
 }
 .skill-box {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1.6rem;
-  padding: 20px 30px;
+  gap: 1rem;
+  padding: 20px 0px;
   border-radius: 10px;
   box-shadow: -1px -2px 15px 2px rgb(3 62 153 / 20%);
 }
@@ -247,14 +248,18 @@
 .projects-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 9.6rem;
   padding: 0 4.8rem;
   margin-bottom: 12.8rem;
 }
 
 .project {
-  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
   background-color: #f1f3f5;
+  /* background-color: #e7f5ff; */
   border-radius: 9px;
   box-shadow: 5px 5px 15px rgba(22, 23, 23, 0.15);
 }
@@ -262,45 +267,31 @@
 .project-img-box {
   border-radius: 9px;
   display: flex;
-  flex-direction: column;
-  gap: 4.8rem;
   align-items: center;
   justify-content: center;
-  padding: 2.4rem;
+  padding: 4.8rem;
 }
 .project-img {
   width: 100%;
   border-radius: 9px;
 }
 
-.project-title {
-  font-size: 3.6rem;
-  font-weight: 600;
-  color: #555;
-  line-height: 1.3;
-  margin-bottom: 1.2rem;
-}
-
 .project-details-box {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(30, 29, 29, 0.963);
-  height: 92%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  border-radius: 9px;
-  opacity: 0;
   padding: 4.8rem;
-  transform: scaleY(1.1);
-  transform-origin: top;
-  transition: transform 0.5s;
+  flex-direction: column;
+  transition: all 0.3s;
 }
 
 .project-details-box:hover {
-  opacity: 1.3;
-  color: rgb(255, 255, 255);
+  transform: scale(1.05);
+}
+.project-title {
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: #f1f3f5;
+  color: #555;
+  line-height: 1.3;
+  margin-bottom: 4.8rem;
 }
 
 .project-links {

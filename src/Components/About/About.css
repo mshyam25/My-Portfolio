@@ -12,16 +12,18 @@
 }
 .about_container {
   position: relative;
-  display: grid;
+  display: flex;
   justify-content: center;
-  gap: 3.2rem;
   flex-wrap: wrap;
 }
 .about_container .about_container_box {
   position: relative;
+  width: 320px;
+  height: 325px;
+  width: 345px;
+  height: 370px;
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
   background-color: #fff;
   padding: 60px 40px 90px;
   margin: 20px;
@@ -30,7 +32,7 @@
   border-radius: 10px;
 }
 .about_container .about_container_box::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;

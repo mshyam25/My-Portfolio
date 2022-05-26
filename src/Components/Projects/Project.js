@@ -48,7 +48,7 @@ const Project = () => {
           <div className='full-project-container_boxs'>
             <div className='full-project-container_box1'>
               <img
-                src='img/tms.png'
+                src='img/tms_800x400.png'
                 alt='Pizza Home Screenshot'
                 className='projectbox_images'
               />
@@ -83,7 +83,7 @@ const Project = () => {
           <div className='full-project-container_boxs'>
             <div className='full-project-container_box1'>
               <img
-                src='img/shoppingsample.png'
+                src='img/merchandise.png'
                 alt='Pizza Home Screenshot'
                 className='projectbox_images'
               />
@@ -118,7 +118,7 @@ const Project = () => {
           <div className='full-project-container_boxs'>
             <div className='full-project-container_box1'>
               <img
-                src='img/markdownsample.png'
+                src='img/markdown_800x400.png'
                 alt='Pizza Home Screenshot'
                 className='projectbox_images'
               />
@@ -161,7 +161,7 @@ const Project = () => {
           <div className='full-project-container_boxs'>
             <div className='full-project-container_box1'>
               <img
-                src='img/calculatorsample.png'
+                src='img/calc_800x400.png'
                 alt='Pizza Home Screenshot'
                 className='projectbox_images'
               />
@@ -195,7 +195,7 @@ const Project = () => {
           <div className='full-project-container_boxs'>
             <div className='full-project-container_box1'>
               <img
-                src='img/thirukuralsample.png'
+                src='img/thirukural_800x400.png'
                 alt='Pizza Home Screenshot'
                 className='projectbox_images'
               />
@@ -229,7 +229,7 @@ const Project = () => {
           <div className='full-project-container_boxs'>
             <div className='full-project-container_box1'>
               <img
-                src='img/footballsample.png'
+                src='img/high_800x400.png'
                 alt='Pizza Home Screenshot'
                 className='projectbox_images'
               />
