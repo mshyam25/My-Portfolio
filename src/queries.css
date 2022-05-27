@@ -148,6 +148,10 @@
   .phone-text:link {
     font-size: 1.5rem;
   }
+
+  .about_container .about_container_box h2 {
+    top: 13.4rem;
+  }
 }
 
 /* Below 280px */

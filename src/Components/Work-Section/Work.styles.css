@@ -140,7 +140,7 @@
   .timeline_border {
     display: block;
     left: -5.5%;
-    height: 100.4rem;
+    height: 10.4rem;
   }
   .timeline_container_card:nth-child(even)::after,
   .timeline_container_card:nth-child(odd)::after {
@@ -160,7 +160,7 @@
     left: -6.7%;
   }
   .timeline_border {
-    height: 95rem;
+    height: 115rem;
   }
   .timeline_container_card {
     width: 100%;
