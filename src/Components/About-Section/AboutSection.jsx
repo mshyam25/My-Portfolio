@@ -8,7 +8,6 @@ const AboutSection = () => {
   return (
     <>
       <div className='container' id='about'>
-        {' '}
         <h2 className='section-heading'>About Me</h2>
         <div className='about_container'>
           <div className='about_container_box'>

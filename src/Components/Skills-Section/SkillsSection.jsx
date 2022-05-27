@@ -1,5 +1,4 @@
 import React from 'react'
-import './Skills.styles.css'
 const SkillsSection = () => {
   return (
     <>

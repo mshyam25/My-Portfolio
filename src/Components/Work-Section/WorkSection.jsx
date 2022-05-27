@@ -8,7 +8,7 @@ const WorkSection = () => {
         <div className='work-timeline-container'>
           <div className='timeline_container'>
             <div className='timeline_container_card present_box'>
-              <div className='timline_border'></div>
+              <div className='timeline_border'></div>
               <div className='timeline_container_card_body'>
                 <h1 className='timeline_container_card_title'>
                   11/2021 - Present

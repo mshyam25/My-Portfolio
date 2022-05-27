@@ -2,7 +2,7 @@ import React from 'react'
 import Tooltip from '@mui/material/Tooltip'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import IconButton from '@mui/material/IconButton'
-import './Projects.styles.css'
+
 const ProjectsSection = () => {
   const tooltipStyle = { fontSize: '1.8rem' }
   return (
@@ -99,7 +99,7 @@ const ProjectsSection = () => {
                 alt='TMS Home Screenshot'
                 className='project-img'
               />
-              <p className='project-title'>Movie Ticket Booking App</p>
+              <p className='project-title'>Ticket Booking App</p>
             </div>
             <div className='project-details-box flex-center-all'>
               <p className='project-title'>Links</p>

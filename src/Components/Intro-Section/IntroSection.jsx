@@ -1,5 +1,4 @@
 import React from 'react'
-import './Intro.styles.css'
 const IntroSection = () => {
   return (
     <>
