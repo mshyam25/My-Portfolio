@@ -67,6 +67,12 @@
   .about_container .about_container_box h2 {
     top: 12.2rem;
   }
+
+  footer .container {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+  }
 }
 
 /* BELOW 624px (Small tablets) */
