@@ -88,8 +88,8 @@ color: #032782;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   margin: 4.8rem auto;
-  /* justify-items: center; */
-  /* align-items: center; */
+  justify-items: center;
+  align-items: center;
 }
 
 .profile-img-box {
@@ -236,6 +236,7 @@ color: #032782;
 
 .project-img {
   width: 100%;
+
   border-radius: 9px;
 }
 
@@ -309,7 +310,7 @@ color: #032782;
 .about_container_box {
   position: relative;
   width: 60%;
-  height: 40rem;
+  height: 35rem;
   display: flex;
   flex-direction: column;
   gap: 4.8rem;

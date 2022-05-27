@@ -24,35 +24,27 @@
     font-size: 50%;
   }
   .intro-section {
-    display: grid;
     grid-template-columns: 1fr;
-    gap: 2.4rem;
   }
   .display-img {
-    height: 40rem;
+    height: 60rem;
   }
 
-  .heading-primary {
-    font-size: 4rem;
-  }
   .intro-secondary {
-    font-size: 3rem;
+    font-size: 3.2rem;
   }
-  .about-me-text {
-    font-size: 2.2rem;
+
+  .projects-container {
+    grid-template-columns: 1fr;
+    gap: 12.8rem;
   }
   .project-title {
-    font-size: 3rem;
+    font-size: 3.2rem;
     margin-bottom: 4rem;
   }
-  .project-links {
-    gap: 0;
-  }
-  .project-img-box {
-    padding: 0 1.6rem;
-  }
-  .task {
-    font-size: 2.2rem;
+
+  .about_container .about_container_box h2 {
+    top: 11.8rem;
   }
 }
 
@@ -69,32 +61,11 @@
     font-size: 3rem;
   }
   .skill-icon {
-    height: 6rem;
-    width: 6rem;
+    height: 4rem;
+    width: 4rem;
   }
-  .projects-container {
-    gap: 4.8rem;
-    margin-bottom: 9.6rem;
-  }
-  .project-title {
-    font-size: 2.6rem;
-    margin-bottom: 4rem;
-  }
-
-  .time {
-    font-size: 2.6rem;
-  }
-  .company {
-    font-size: 2.2rem;
-  }
-  .role {
-    font-size: 3rem;
-  }
-  .task {
-    font-size: 2rem;
-  }
-  .footer-contacts {
-    flex-direction: column;
+  .about_container .about_container_box h2 {
+    top: 12.2rem;
   }
 }
 
@@ -104,36 +75,9 @@
   .container {
     max-width: 90rem;
   }
-
   .project {
     display: flex;
     flex-direction: column;
-  }
-  .project-2,
-  .project-4,
-  .project-6 {
-    flex-direction: column-reverse;
-  }
-  .project-img-box {
-    padding: 0;
-  }
-
-  .project-img {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-  .project-title {
-    font-size: 3rem;
-  }
-  .work-exp {
-    grid-template-columns: 1fr;
-  }
-  .time-line {
-    border-right: none;
-  }
-  .project-link-icon {
-    width: 6rem;
-    height: 6rem;
   }
 }
 
@@ -141,7 +85,7 @@
 
 @media (max-width: 27em) {
   .container {
-    max-width: 70rem;
+    max-width: 60rem;
   }
   html {
     font-size: 37.5%;
