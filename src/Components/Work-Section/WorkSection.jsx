@@ -18,8 +18,12 @@ const WorkSection = () => {
                 </p>
                 <p className='timeline_role'>Developer</p>
                 <p className='timeline_container_card_details'>
-                  Developing new UI components based on Requirements using
-                  functional components.
+                  <ul>
+                    <li>
+                      Developing new UI components based on Requirements using
+                      functional components.
+                    </li>
+                  </ul>
                 </p>
               </div>
             </div>
