@@ -87,7 +87,7 @@
 }
 
 .present_box {
-  background-color: #91a7ff;
+  background-color: #0ca678;
 }
 
 /* .timeline_container_card:nth-child(even) .timeline_container_card_body::before {
@@ -116,8 +116,8 @@
 .timeline_role {
   font-size: 2.4rem;
   font-weight: 500;
-  margin: 1.5rem 0px;
-  color: #087f5b;
+  margin: 2.4rem auto;
+  color: #131313;
 }
 .timeline_container_card_details {
   font-size: 1.8rem;
@@ -189,8 +189,8 @@
   }
 }
 @media (max-width: 555px) {
-  .timeline_container_card_details ul li {
-    font-size: 13px;
+  .timeline_container_card_details {
+    line-height: 2.5rem;
   }
   .timeline_container {
     margin: 10px 10px 10px 25px;

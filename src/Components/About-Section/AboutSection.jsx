@@ -1,13 +1,12 @@
 import React from 'react'
-import './About.styles.css'
 import SchoolIcon from '@mui/icons-material/School'
 import WorkIcon from '@mui/icons-material/Work'
 import InterestsIcon from '@mui/icons-material/Interests'
 
 const AboutSection = () => {
   return (
-    <>
-      <div className='container' id='about'>
+    <div id='about'>
+      <div className='container'>
         <h2 className='section-heading'>About Me</h2>
         <div className='about_container'>
           <div className='about_container_box'>
@@ -45,7 +44,7 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

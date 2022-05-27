@@ -6,7 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import GitHubIcon from '@mui/icons-material/GitHub'
 const Footer = () => {
   return (
-    <div className='container'>
+    <div id='contact'>
       <footer>
         <div className='container'>
           <div className='first'>
