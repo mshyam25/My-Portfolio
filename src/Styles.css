@@ -33,7 +33,7 @@ color: #032782;
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
-  box-shadow: 0px 0px 49px -9px #111;
+  box-shadow: 0px 0px 19px -9px #111;
   height: 6.4rem;
   padding: 1rem 2.4rem;
   position: fixed;
@@ -62,18 +62,17 @@ color: #032782;
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 1.4rem;
+  gap: 1rem;
 }
 
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #efefef;
+  color: #0c32a6;
   font-weight: 700;
   font-size: 2rem;
-  padding: 1.6rem;
-  background-color: #0c32a6;
+  padding: 1rem;
   border-radius: 4px;
   transition: 0.5s;
 }
@@ -159,7 +158,7 @@ color: #032782;
 .main-nav-link.contact:visited {
   padding: 1.7rem 3.4rem;
   border-radius: 9px;
-  color: #efefef;
+  color: #011a58;
   border: 2px solid #032782;
   display: flex;
   align-items: center;
@@ -168,10 +167,8 @@ color: #032782;
 
 .main-nav-link.contact:hover,
 .main-nav-link.contact:active {
-  /* background-color: #032782;
-  color: #fff; */
-  background-color: #eee;
-  color: #333;
+  background-color: #032782;
+  color: #fff;
 }
 
 /* Skills Section */
